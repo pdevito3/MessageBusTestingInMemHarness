@@ -1,0 +1,24 @@
+{
+  "profiles": {
+    "Development": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "AUTH_AUDIENCE": "",
+        "AUTH_AUTHORITY": "",
+        "AUTH_AUTHORIZATION_URL": "",
+        "AUTH_TOKEN_URL": "",
+        "AUTH_CLIENT_ID": "",
+        "AUTH_CLIENT_SECRET": "",
+        "DB_CONNECTION_STRING": "local",
+        "RMQ_HOST": "localhost",
+        "RMQ_VIRTUAL_HOST": "/",
+        "RMQ_USERNAME": "guest",
+        "RMQ_PASSWORD": "guest"        
+      },
+      "applicationUrl": "https://localhost:5375"
+    },
+  }
+}
